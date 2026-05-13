@@ -70,7 +70,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:hint="Search or type URL"
-                android:hintTextColor="#BBBBBB"
+                android:textColorHint="#BBBBBB"
                 android:textColor="#111111"
                 android:textSize="13sp"
                 android:background="@null"
