@@ -213,7 +213,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:hint="Search or type URL"
-                    android:hintTextColor="#999999"
+                    android:textColorHint="#999999"
                     android:textColor="#111111"
                     android:textSize="15sp"
                     android:background="@null"
