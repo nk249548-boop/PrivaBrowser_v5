@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Continue without lock"
-        android:backgroundTint="transparent"
+        android:backgroundTint="@android:color/transparent"
         android:textColor="#555555"
         android:textSize="12sp"
         android:visibility="gone" />
