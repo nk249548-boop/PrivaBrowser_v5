@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivaBrowser</string>
+    <string name="search_hint">Search or type URL</string>
+    <string name="download_video">Download Video</string>
+    <string name="no_video_found">No video found on this page</string>
+    <string name="downloading">Downloading</string>
+    <string name="data_cleared">Browsing data cleared</string>
+    <string name="biometric_title">PrivaBrowser Lock</string>
+    <string name="biometric_subtitle">Use biometric to unlock your private browser</string>
+    <string name="permission_granted">Permission granted. Try downloading again.</string>
+    <string name="no_video_player">No video player installed</string>
+</resources>

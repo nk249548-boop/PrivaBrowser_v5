@@ -1,0 +1,28 @@
+! PrivaBrowser EasyList - Minimal built-in rules
+! For full list, download from: https://easylist.to/easylist/easylist.txt
+
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adnxs.com^
+||adsrvr.org^
+||advertising.com^
+||outbrain.com^
+||taboola.com^
+||criteo.com^
+||pubmatic.com^
+||rubiconproject.com^
+||openx.net^
+||amazon-adsystem.com^
+||moatads.com^
+||scorecardresearch.com^
+||hotjar.com^
+||connect.facebook.net^
+||ads.facebook.com^
+||mc.yandex.ru^
+||pagead2.googlesyndication.com^
+||tpc.googlesyndication.com^
+||bat.bing.com^
+||ads.twitter.com^
+||a.teads.tv^
+||t.teads.tv^

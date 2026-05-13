@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PrivaBrowser" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#E8194B</item>
+        <item name="colorPrimaryVariant">#C0143D</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#F0F0F0</item>
+        <item name="android:statusBarColor">#F0F0F0</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

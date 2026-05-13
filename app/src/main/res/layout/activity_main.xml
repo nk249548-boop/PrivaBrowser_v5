@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quetta-style: White background, bottom URL bar, no top bar -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Progress bar (thin, top) -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:progressTint="#E8194B"
+        android:progressBackgroundTint="#EEEEEE"
+        android:visibility="gone"
+        android:max="100" />
+
+    <!-- WebView fills all space -->
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Bottom bar - Quetta style -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:elevation="8dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_media_previous"
+            android:tint="#555555" />
+
+        <ImageButton
+            android:id="@+id/btn_forward"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_media_next"
+            android:tint="#555555" />
+
+        <!-- URL bar container -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/url_bar_light_bg"
+            android:paddingStart="10dp"
+            android:paddingEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp">
+
+            <EditText
+                android:id="@+id/url_bar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Search or type URL"
+                android:hintTextColor="#BBBBBB"
+                android:textColor="#111111"
+                android:textSize="13sp"
+                android:background="@null"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:singleLine="true"
+                android:selectAllOnFocus="true" />
+
+            <!-- Video download button -->
+            <ImageButton
+                android:id="@+id/btn_download"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/download_btn_bg"
+                android:src="@android:drawable/stat_sys_download"
+                android:tint="#FFFFFF"
+                android:visibility="gone" />
+
+            <!-- Tab count badge -->
+            <TextView
+                android:id="@+id/tv_tab_count"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="1"
+                android:textSize="12sp"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/tab_count_bg"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="2dp" />
+
+        </LinearLayout>
+
+        <!-- Playlist -->
+        <ImageButton
+            android:id="@+id/btn_playlist"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_media_rew"
+            android:tint="#555555" />
+
+        <!-- Overflow menu -->
+        <ImageButton
+            android:id="@+id/btn_overflow"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_more"
+            android:tint="#555555" />
+
+    </LinearLayout>
+
+</LinearLayout>
